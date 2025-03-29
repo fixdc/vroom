@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+@font-face {
+    font-family: 'cool';
+    src: url('/public/fonts/coolvetica.otf') format('truetype'),
+    /* Add more src URLs for different font formats if necessary */
+}
